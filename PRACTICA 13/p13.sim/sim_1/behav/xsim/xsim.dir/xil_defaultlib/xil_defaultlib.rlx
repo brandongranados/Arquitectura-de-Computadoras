@@ -1,0 +1,22 @@
+0.7
+2020.2
+Nov 18 2020
+09:20:35
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/NivelBTH.vhd,1639408260,vhdl,,,,nivelbth,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/PACKAGE_P10.vhd,1639412232,vhdl,/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd,,,package_p10,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/RegistroEstadosBTH.vhd,1639410430,vhdl,,,,registroestadosbth,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/condicionBTH.vhd,1639409160,vhdl,,,,condicionbth,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/decoBTH.vhd,1639405036,vhdl,,,,decobth,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/mFunCodeBTH.vhd,1639406014,vhdl,,,,mfuncodebth,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd,1639412278,vhdl,,,,main,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sim_1/new/mopCodeBTH.vhd,1639407259,vhdl,,,,mopcodebth,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/CartasASM.vhd,1639410780,vhdl,,,,cartaasm,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux.vhd,1639407473,vhdl,,,,mux,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux2C.vhd,1639407536,vhdl,,,,mux2c,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Nivel.vhd,1639407719,vhdl,,,,nivel,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/RegistroEstados.vhd,1639409743,vhdl,,,,registroestados,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd,1639418605,vhdl,,,,tb_unidadcontrol,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/condicion.vhd,1639408561,vhdl,,,,condicion,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/decodificador.vhd,1639404104,vhdl,,,,decodificadorinstruccion,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mFunCode.vhd,1639405505,vhdl,,,,microcodigofuncion,,,,,,,,
+/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mopCode.vhd,1639406700,vhdl,,,,microcodigoopcode,,,,,,,,

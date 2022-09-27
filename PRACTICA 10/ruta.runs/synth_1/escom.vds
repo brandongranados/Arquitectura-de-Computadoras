@@ -1,0 +1,238 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Nov 24 21:46:32 2021
+# Process ID: 2195
+# Current directory: /home/brandon/Documentos/ruta/ruta.runs/synth_1
+# Command line: vivado -log escom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source escom.tcl
+# Log file: /home/brandon/Documentos/ruta/ruta.runs/synth_1/escom.vds
+# Journal file: /home/brandon/Documentos/ruta/ruta.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source escom.tcl -notrace
+Command: synth_design -top escom -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2266
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 2292.887 ; gain = 0.000 ; free physical = 331 ; free virtual = 4354
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'escom' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/escom.vhd:14]
+INFO: [Synth 8-3491] module 'alu4bits' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:6' bound to instance 'math' of component 'alu4bits' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/escom.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'alu4bits' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:14]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'alu1' (1#1) [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:15]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-3491] module 'alu1' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu1bit.vhd:4' bound to instance 'element' of component 'alu1' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'alu4bits' (2#1) [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/alu4bits.vhd:14]
+INFO: [Synth 8-3491] module 'memDatos' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/memData.vhd:6' bound to instance 'match2' of component 'memDatos' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/escom.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'memDatos' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/memData.vhd:15]
+	Parameter M bound to: 11 - type: integer 
+	Parameter N bound to: 16 - type: integer 
+WARNING: [Synth 8-614] signal 'WD' is read in the process but is not in the sensitivity list [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/memData.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'memDatos' (3#1) [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/memData.vhd:15]
+	Parameter N bound to: 16 - type: integer 
+	Parameter M bound to: 25 - type: integer 
+INFO: [Synth 8-3491] module 'memProg' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/memProg.vhd:6' bound to instance 'MATCH3' of component 'memProg' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/escom.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'memProg' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/memProg.vhd:13]
+	Parameter N bound to: 16 - type: integer 
+	Parameter M bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memProg' (4#1) [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/memProg.vhd:13]
+INFO: [Synth 8-3491] module 'p7' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/archReg.vhd:6' bound to instance 'MATH4' of component 'p7' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/escom.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'p7' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/archReg.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'p7' (5#1) [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/archReg.vhd:13]
+INFO: [Synth 8-3491] module 'pila' declared at '/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/pila.vhd:6' bound to instance 'match5' of component 'pila' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/escom.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'pila' [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/pila.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'pila' (6#1) [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/pila.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'escom' (7#1) [/home/brandon/Documentos/ruta/ruta.srcs/sources_1/new/escom.vhd:14]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 2292.887 ; gain = 0.000 ; free physical = 1002 ; free virtual = 5035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 2292.887 ; gain = 0.000 ; free physical = 1024 ; free virtual = 5058
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 1020 ; free virtual = 5054
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:08:02 ; elapsed = 00:10:46 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 547 ; free virtual = 4823
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 49    
++---Registers : 
+	               16 Bit    Registers := 19    
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 10    
+	   3 Input   16 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 93    
+	   4 Input    1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:16:39 ; elapsed = 00:21:53 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 545 ; free virtual = 4844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|memProg     | memProg[0] | 65536x18      | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:16:39 ; elapsed = 00:21:53 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 544 ; free virtual = 4844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:16:39 ; elapsed = 00:21:53 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 543 ; free virtual = 4844
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 521 ; free virtual = 4822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 521 ; free virtual = 4822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 521 ; free virtual = 4822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 521 ; free virtual = 4822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 521 ; free virtual = 4822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 521 ; free virtual = 4822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 521 ; free virtual = 4822
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.824 ; gain = 7.938 ; free physical = 523 ; free virtual = 4824
+Synthesis Optimization Complete : Time (s): cpu = 00:16:42 ; elapsed = 00:21:58 . Memory (MB): peak = 2300.832 ; gain = 7.938 ; free physical = 523 ; free virtual = 4824
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2300.832 ; gain = 0.000 ; free physical = 512 ; free virtual = 4814
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2300.832 ; gain = 0.000 ; free physical = 518 ; free virtual = 4834
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+45 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:16:49 ; elapsed = 00:22:02 . Memory (MB): peak = 2300.832 ; gain = 8.012 ; free physical = 672 ; free virtual = 4988
+INFO: [Common 17-1381] The checkpoint '/home/brandon/Documentos/ruta/ruta.runs/synth_1/escom.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file escom_utilization_synth.rpt -pb escom_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 24 22:08:57 2021...

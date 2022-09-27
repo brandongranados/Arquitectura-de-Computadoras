@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../p11arreglo.srcs/sources_1/new/p11arreglo.vhd" \
+"../../../../p11arreglo.srcs/sim_1/new/p11arregloBTH.vhd" \
+
+# Do not sort compile order
+nosort

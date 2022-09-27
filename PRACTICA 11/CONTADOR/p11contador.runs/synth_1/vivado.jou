@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Nov 30 17:38:04 2021
+# Process ID: 7298
+# Current directory: /home/brandon/Documentos/p11contador/p11contador.runs/synth_1
+# Command line: vivado -log p12.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source p12.tcl
+# Log file: /home/brandon/Documentos/p11contador/p11contador.runs/synth_1/p12.vds
+# Journal file: /home/brandon/Documentos/p11contador/p11contador.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source p12.tcl -notrace

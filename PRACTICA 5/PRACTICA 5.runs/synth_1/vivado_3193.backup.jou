@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Sep 27 15:09:16 2021
+# Process ID: 3193
+# Current directory: /home/brandon/Documentos/PRACTICA 5/PRACTICA 5.runs/synth_1
+# Command line: vivado -log p5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source p5.tcl
+# Log file: /home/brandon/Documentos/PRACTICA 5/PRACTICA 5.runs/synth_1/p5.vds
+# Journal file: /home/brandon/Documentos/PRACTICA 5/PRACTICA 5.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source p5.tcl -notrace

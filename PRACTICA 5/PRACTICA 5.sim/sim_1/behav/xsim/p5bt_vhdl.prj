@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PRACTICA 5.srcs/sources_1/new/p5.vhd" \
+"../../../../PRACTICA 5.srcs/sources_1/new/p5bt.vhd" \
+
+# Do not sort compile order
+nosort

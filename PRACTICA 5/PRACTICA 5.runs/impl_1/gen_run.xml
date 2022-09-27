@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1632804198">
+  <File Type="CFI_FILE" Name="p5bt.cfi"/>
+  <File Type="RCFI_FILE" Name="p5bt.rcfi"/>
+  <File Type="PDI-FILE" Name="p5bt.pdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="p5bt_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="p5bt_postroute_physopt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="p5bt_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="p5bt_postplace_pwropt.dcp"/>
+  <File Type="PWROPT-DCP" Name="p5bt_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="p5bt_placed.dcp"/>
+  <File Type="OPT-DCP" Name="p5bt_opt.dcp"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="p5bt.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="p5bt.sysdef"/>
+  <File Type="BITSTR-MMI" Name="p5bt.mmi"/>
+  <File Type="BITSTR-BMM" Name="p5bt_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="p5bt.nky"/>
+  <File Type="BITSTR-RBT" Name="p5bt.rbt"/>
+  <File Type="REPORTS-TCL" Name="p5bt_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="p5bt.msk"/>
+  <File Type="PA-TCL" Name="p5bt.tcl"/>
+  <File Type="ROUTE-TIMING-PB" Name="p5bt_timing_summary_routed.pb"/>
+  <File Type="OPT-DRC" Name="p5bt_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="p5bt.rbd"/>
+  <File Type="BG-BIN" Name="p5bt.bin"/>
+  <File Type="NPI_FILE" Name="p5bt.npi"/>
+  <File Type="BG-BGN" Name="p5bt.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="p5bt_routed_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="p5bt.vdi"/>
+  <File Type="RNPI_FILE" Name="p5bt.rnpi"/>
+  <File Type="BG-DRC" Name="p5bt.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="p5bt_routed_error.dcp"/>
+  <File Type="BG-BIT" Name="p5bt.bit"/>
+  <File Type="OPT-HWDEF" Name="p5bt.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="p5bt_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="p5bt_routed.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/p5.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/p5bt.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="p5bt"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

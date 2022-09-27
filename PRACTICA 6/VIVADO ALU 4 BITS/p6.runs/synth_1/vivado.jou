@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Oct  5 17:51:23 2021
+# Process ID: 3881
+# Current directory: /home/brandon/Documentos/p6/p6.runs/synth_1
+# Command line: vivado -log alu4bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu4bits.tcl
+# Log file: /home/brandon/Documentos/p6/p6.runs/synth_1/alu4bits.vds
+# Journal file: /home/brandon/Documentos/p6/p6.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source alu4bits.tcl -notrace

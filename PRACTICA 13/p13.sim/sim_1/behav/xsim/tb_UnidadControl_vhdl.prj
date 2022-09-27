@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../p13.srcs/sources_1/new/CartasASM.vhd" \
+"../../../../p13.srcs/sources_1/new/Mux.vhd" \
+"../../../../p13.srcs/sources_1/new/Mux2C.vhd" \
+"../../../../p13.srcs/sources_1/new/Nivel.vhd" \
+"../../../../p13.srcs/sim_1/new/PACKAGE_P10.vhd" \
+"../../../../p13.srcs/sources_1/new/RegistroEstados.vhd" \
+"../../../../p13.srcs/sources_1/new/condicion.vhd" \
+"../../../../p13.srcs/sources_1/new/decodificador.vhd" \
+"../../../../p13.srcs/sources_1/new/mFunCode.vhd" \
+"../../../../p13.srcs/sim_1/new/main.vhd" \
+"../../../../p13.srcs/sources_1/new/mopCode.vhd" \
+"../../../../p13.srcs/sources_1/new/UC.vhd" \
+
+# Do not sort compile order
+nosort

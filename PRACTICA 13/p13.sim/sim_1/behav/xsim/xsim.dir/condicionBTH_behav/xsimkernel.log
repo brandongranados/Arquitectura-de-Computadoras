@@ -1,0 +1,7 @@
+Running: xsim.dir/condicionBTH_behav/xsimk -simmode gui -wdb condicionBTH_behav.wdb -simrunnum 0 -socket 39645
+Design successfully loaded
+Design Loading Memory Usage: 33580 KB (Peak: 33700 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 115316 KB (Peak: 172848 KB)
+Simulation CPU Usage: 40 ms

@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 13 12:03:44 2021
+# Process ID: 31424
+# Current directory: /home/brandon/Documentos/p13/p13.runs/synth_1
+# Command line: vivado -log tb_UnidadControl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_UnidadControl.tcl
+# Log file: /home/brandon/Documentos/p13/p13.runs/synth_1/tb_UnidadControl.vds
+# Journal file: /home/brandon/Documentos/p13/p13.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source tb_UnidadControl.tcl -notrace
+Command: synth_design -top tb_UnidadControl -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31487
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 2292.883 ; gain = 0.000 ; free physical = 353 ; free virtual = 3757
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'tb_UnidadControl' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:13]
+WARNING: [Synth 8-5640] Port 'na' is missing in component declaration [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:17]
+INFO: [Synth 8-3491] module 'main' declared at '/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:7' bound to instance 'uut' of component 'main' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'main' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:17]
+INFO: [Synth 8-3491] module 'CartaASM' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/CartasASM.vhd:4' bound to instance 'ASM' of component 'CartaASM' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'CartaASM' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/CartasASM.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'CartaASM' (1#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/CartasASM.vhd:9]
+INFO: [Synth 8-3491] module 'Condicion' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/condicion.vhd:4' bound to instance 'Con' of component 'Condicion' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'Condicion' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/condicion.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Condicion' (2#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/condicion.vhd:9]
+INFO: [Synth 8-3491] module 'DecodificadorInstruccion' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/decodificador.vhd:4' bound to instance 'Deco' of component 'DecodificadorInstruccion' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'DecodificadorInstruccion' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/decodificador.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'DecodificadorInstruccion' (3#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/decodificador.vhd:9]
+INFO: [Synth 8-3491] module 'MicrocodigoFuncion' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mFunCode.vhd:6' bound to instance 'Funcion' of component 'MicrocodigoFuncion' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'MicrocodigoFuncion' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mFunCode.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MicrocodigoFuncion' (4#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mFunCode.vhd:11]
+INFO: [Synth 8-3491] module 'MicrocodigoOpcode' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mopCode.vhd:6' bound to instance 'Opcode' of component 'MicrocodigoOpcode' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'MicrocodigoOpcode' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mopCode.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MicrocodigoOpcode' (5#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/mopCode.vhd:11]
+INFO: [Synth 8-3491] module 'Mux' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux.vhd:4' bound to instance 'Mux1' of component 'Mux' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'Mux' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux' (6#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux.vhd:11]
+INFO: [Synth 8-3491] module 'Mux2C' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux2C.vhd:4' bound to instance 'Mux2' of component 'Mux2C' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'Mux2C' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux2C.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux2C' (7#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Mux2C.vhd:11]
+INFO: [Synth 8-3491] module 'Nivel' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Nivel.vhd:4' bound to instance 'Niv' of component 'Nivel' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'Nivel' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Nivel.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Nivel' (8#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/Nivel.vhd:9]
+INFO: [Synth 8-3491] module 'RegistroEstados' declared at '/home/brandon/Documentos/p13/p13.srcs/sources_1/new/RegistroEstados.vhd:4' bound to instance 'Reg' of component 'RegistroEstados' [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'RegistroEstados' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/RegistroEstados.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'RegistroEstados' (9#1) [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/RegistroEstados.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'main' (10#1) [/home/brandon/Documentos/p13/p13.srcs/sim_1/new/main.vhd:17]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:61]
+WARNING: [Synth 8-2897] clock signal used as data [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:116]
+WARNING: [Synth 8-2897] clock signal used as data [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:116]
+ERROR: [Synth 8-27] nested clocked statements not supported [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:118]
+ERROR: [Synth 8-285] failed synthesizing module 'tb_UnidadControl' [/home/brandon/Documentos/p13/p13.srcs/sources_1/new/UC.vhd:13]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 2292.883 ; gain = 0.000 ; free physical = 243 ; free virtual = 3648
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 4 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 13 12:04:21 2021...
